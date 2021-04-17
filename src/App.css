@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+.navbar-nav {
+  display: inline;
+}
+
+.navbar-light {
+  background-color: black;
+  padding: 16px;
+}
+
+.navbar-item {
+  margin: 0px 20px;
+  float: left;
+  list-style-type: none;
+}
+.nav-link {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+.form-header {
+  margin-bottom: 25px;
+  font-weight: 400 !important;
+}
