@@ -1,0 +1,23 @@
+.users-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination {
+    margin-top: 20px;
+}
+
+.card-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.card-body {
+    display: flex;
+}
+
+.card-text {
+    margin: 0 20px;
+}

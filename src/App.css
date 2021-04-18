@@ -18,7 +18,7 @@
 }
 .nav-link {
   font-weight: bold;
-  color: white;
+  color: white !important;
   text-decoration: none;
 }
 .form-header {

@@ -6,12 +6,21 @@ class SearchComponent extends Component {
 
     constructor(props) {
         super(props);
-        this.onClickSearch = this.onClickSearch.bind(this);
 
+        this.state= {
+            searchValue: ''
+        };
+        
+        this.onClickSearch = this.onClickSearch.bind(this);
+        this.handleChange = this.handleChange.bind(this);
     }
     onClickSearch(e) {
         e.preventDefault();
-        this.props.history.push('/users');
+        this.props.history.push({ pathname: '/users', state: this.state.searchValue });
+    }
+
+    handleChange(e){
+        this.setState({ searchValue: e.target.value })
     }
 
     render() {
@@ -23,8 +32,7 @@ class SearchComponent extends Component {
                         <input  type="text"
                                 className="form-control"
                                 placeholder="Search GitHub"
-                                value=""
-                                onChange=""
+                                onChange= { this.handleChange }
                                 />
                         <input type="button" value="Search" className="btn btn-primary search-button" onClick={ this.onClickSearch } />
                     </div>
