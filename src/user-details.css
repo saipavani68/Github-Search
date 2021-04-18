@@ -5,7 +5,14 @@
 }
 
 .pagination {
-    margin-top: 20px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.card {
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
 }
 
 .card-img {
@@ -20,4 +27,15 @@
 
 .card-text {
     margin: 0 20px;
+}
+
+.total-users-text {
+    font-size: 20px;
+    margin: 25px 30px;
+}
+
+.username-header{
+    font-weight: 500;
+    font-size: 16px;
+    display: block;
 }
