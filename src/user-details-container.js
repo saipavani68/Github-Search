@@ -26,7 +26,7 @@ export default class UserDetailsContainer extends Component {
           .then(res => {
             const userData = res.data;
             this.setState({ userData, isLoading: false });
-            this.getFollowerCount(userData);
+            //this.getFollowerCount(userData);
           });
           this.setState({ isLoading: true })
         }   
