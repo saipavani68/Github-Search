@@ -1,4 +1,4 @@
-# Github-Search
+# Github User Search
 
 This project was bootstrapped with Create React App.
 
