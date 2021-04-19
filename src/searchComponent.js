@@ -27,7 +27,7 @@ class SearchComponent extends Component {
         return (
             <div className="form-container">
                 <h2 className="form-header">Search more than 69M users</h2>
-                <form onSubmit={ this.onSubmit }>
+                <form onSubmit={ this.onClickSearch }>
                     <div className="form-group"> 
                         <input  type="text"
                                 className="form-control"
